@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <meta name="description" content="TorrentTV — приложение для Android TV. Каталог фильмов, поиск и просмотр информации о фильмах.">
+  <title>TorrentTV — приложение для Android TV</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0d1017;--panel:#171c28;--text:#f4f6fb;--muted:#aab3c5;--accent:#8b5cf6;--line:#2a3243}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 75% 0%,#28204c 0,transparent 45%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .wrap{width:min(960px,calc(100% - 36px));margin:auto}.top{padding:26px 0;border-bottom:1px solid var(--line)}.brand{font-size:22px;font-weight:800;letter-spacing:.4px}.brand span{color:#a78bfa}
+    main{padding:70px 0 46px}.tag{display:inline-block;color:#c4b5fd;border:1px solid #51417d;border-radius:999px;padding:5px 12px;font-size:13px}
+    h1{font-size:clamp(38px,7vw,68px);line-height:1.08;margin:20px 0 18px;letter-spacing:-1.5px}h1 em{font-style:normal;color:#a78bfa}
+    .lead{font-size:19px;color:var(--muted);max-width:700px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:42px 0}
+    .card{background:linear-gradient(145deg,#1b2130,#141923);border:1px solid var(--line);border-radius:18px;padding:22px}.card h2{margin:0 0 8px;font-size:19px}.card p{margin:0;color:var(--muted)}
+    .notice{border-left:3px solid var(--accent);background:#171526;padding:18px 20px;border-radius:0 12px 12px 0;color:var(--muted)}
+    footer{border-top:1px solid var(--line);padding:24px 0 38px;color:var(--muted);font-size:14px}
+    a{color:#c4b5fd} @media(max-width:600px){main{padding-top:48px}.lead{font-size:17px}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap"><div class="brand">◈ <span>Torrent</span>TV</div></div></header>
+  <main class="wrap">
+    <span class="tag">Проект для Android TV</span>
+    <h1>Ваши фильмы.<br><em>На большом экране.</em></h1>
+    <p class="lead">TorrentTV — проект приложения для Android TV, предназначенного для поиска фильмов, просмотра информации о них и воспроизведения видео из доступных источников.</p>
+    <section class="grid" aria-label="Возможности проекта">
+      <article class="card"><h2>🎬 Каталог фильмов</h2><p>Поиск фильмов и просмотр сведений: названий, постеров, описаний и другой информации.</p></article>
+      <article class="card"><h2>📺 Для Android TV</h2><p>Проект ориентирован на просмотр на телевизоре и управление с помощью пульта.</p></article>
+      <article class="card"><h2>▶️ Воспроизведение</h2><p>Предусматривается воспроизведение видео из источников, доступных пользователю и разрешённых к использованию.</p></article>
+    </section>
+    <section class="notice">
+      <strong>Информация о данных</strong><br>
+      Для отображения сведений о фильмах приложение может использовать TMDB API. TorrentTV не является продуктом TMDB и не одобрено TMDB. Названия, изображения и сведения о фильмах принадлежат соответствующим правообладателям.
+    </section>
+  </main>
+  <footer><div class="wrap">© 2026 TorrentTV · Информационная страница проекта.</div></footer>
+</body>
+</html>
